@@ -34,7 +34,7 @@ export default [
         { allowConstantExport: true },
       ],
       'no-unused-vars': 'warn', // Change this line to display warnings instead of errors for unused variables
-      "react/prop-types""off: 
+      "react/prop-types": "off",
     },
   },
 ]
