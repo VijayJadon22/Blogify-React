@@ -131,10 +131,11 @@ export class Service {
     }
 
     getFilePreview(fileId) {
+        // Call the getFilePreview method on the bucket object with the bucket ID and file ID
         return this.bucket.getFilePreview(
-            conf.appwriteBucketId,
-            fileId
-        )
+            conf.appwriteBucketId, // The ID of the bucket where the file is stored
+            fileId // The ID of the file to retrieve the preview for
+        );
     }
 
 
